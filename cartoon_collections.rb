@@ -17,7 +17,8 @@ def long_planeteer_calls(calls)
       words += 1
     end
   end
-  if words == calls.length return false
+  if words == calls.length 
+    return false
   end
 end
 
