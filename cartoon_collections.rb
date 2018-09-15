@@ -11,9 +11,9 @@ end
 def long_planeteer_calls(calls)
   words = 0
   calls.each do |call|
-    if call.length >= 4
+    if call.length > 4
       return true  
-    elsif call.length < 4
+    elsif call.length <= 4
       words += 1
     end
   end
